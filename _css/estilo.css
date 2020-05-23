@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
 header#cabecalho img#icone  {
     position: absolute;
     left: 1380px;
@@ -9,12 +15,13 @@ header#cabecalho img#icone  {
 header#cabecalho    {
     border-bottom: 1px #606060 solid;
     height: 150px;
-    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0 90px;
 }
 
 header#cabecalho h1 {
-    font-family: Arial, sans-serif;
+    font-family: FonteLogo, sans-serif;
     font-size: 30pt;
+    font-weight: normal;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
     padding: 0;
@@ -22,7 +29,8 @@ header#cabecalho h1 {
 }
 
 header#cabecalho h2 {
-    font-family: Arial, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: unset;
     font-size: 15pt;
     color: #888888;
     padding: 0;
