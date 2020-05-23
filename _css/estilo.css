@@ -141,10 +141,36 @@ table#tabela-spec {
 }
 
 table#tabela-spec td{
+    font-family: Arial, sans-serif;
     border: 1px solid #606060;
     padding: 10px;
     text-align: center;
     vertical-align: middle;
+}
+
+table#tabela-spec td.colesq {
+    color: white;
+    font-weight: bold;
+    background-color: #606060;
+    vertical-align: top;
+}
+
+table#tabela-spec td.coldir {
+    background-color: #cecece;
+}
+
+table#tabela-spec caption   {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabela-spec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
 }
 
 aside#lateral   {
